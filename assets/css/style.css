@@ -490,6 +490,18 @@ footer {
     display: inline-block;
 }
 
+@media screen and (max-width: 993px) {
+  .banner-content {
+      padding-top: 110px;
+  }
+
+  .showcase-imgs-div div {
+        min-width: 50%;
+        margin: 0;
+        padding: 0;
+  }
+}
+
 
 
 
