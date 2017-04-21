@@ -178,7 +178,7 @@ header {
 }
 
 .header-wrapper {
-      max-width: 1110px;
+      max-width: 883px;
     width: 98%;
     margin: 0 auto;
 }
@@ -313,7 +313,7 @@ header h1 {
 }
 
 .info-div-wrapper {
-  max-width: 1170px;
+  max-width: 883px;
   margin: 0 auto;  
 }
 
@@ -360,7 +360,7 @@ font-size: 1.2vw;
 }
 
 .showcase-imgs-div {
-      max-width: 1144px;
+      max-width: 883px;
     width: 98%;
     margin: 0 auto;
         display: flex;
@@ -412,8 +412,82 @@ font-size: 1.2vw;
 }
 
 .stay-with-us {
-  background: url(../images/Strict_24.png) no-repeat center center;
+  background: url(../images/form-background.png) no-repeat center center;
   background-size: cover; 
+}
+
+.stay-with-us .stay-with-us-wrapper form {
+  width: 100%;
+}
+
+.stay-with-us form input {
+  width: 95.5%;
+  padding: 2%;
+  background: transparent;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin-top: 10px;
+}
+
+.stay-with-us form textarea {
+  width: 95%;
+    resize: none;
+    padding: 2% 2.3%;
+    height: 140px;
+      background: transparent;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid grey;
+    }
+
+
+ .stay-with-us form .checkbox {
+  width: 4%;
+ 
+}
+
+.stay-with-us form button {
+    padding: 2% 7%;
+    font-size: 1vw;
+    background: trs;
+    background: transparent;
+    border: none;
+    border: 1px solid #259AE1;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+.email,
+textarea {
+  margin-top: 10px;
+}
+
+.footer-wrapper {
+  max-width: 883px;
+  width: 98%;
+  margin: 0 auto; 
+}
+
+footer ul {
+  list-style: none;
+  float: right;
+  padding-bottom: 10px;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer {
+  padding: 20px;
+}
+
+.footer-wrapper span {
+  padding-top: 10px;
+    display: inline-block;
 }
 
 
